@@ -11,7 +11,7 @@ button.addEventListener("click", function() {
   }
 
   const li = document.createElement("li");
-  li.textContent = task;
+  li.textContent = task + " ";
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
